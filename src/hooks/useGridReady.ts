@@ -7,7 +7,7 @@ export const useGridReady = () => {
 
   useEffect(() => {
     if (gridApi && gridColumnApi) {
-      //gridApi.sizeColumnsToFit();
+      gridApi.sizeColumnsToFit();
     }
   }, [gridApi, gridColumnApi]);
 

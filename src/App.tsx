@@ -3,18 +3,19 @@ import "./App.css";
 import "ag-grid-enterprise";
 import "ag-grid-community/dist/styles/ag-grid.css";
 import "ag-grid-community/dist/styles/ag-theme-alpine.css";
-import { GetStarted } from "./getStarted/GetStarted";
-import { ColumnDefinitionSample } from "./columns/ColumnDefinitionSample";
-import { ColumnHeadersSample } from "./columns/ColumnHeadersSample";
-import { ColumnGroupSample } from "./columns/ColumnGroupSample";
-import { ColumnUpdateDefinitions } from "./columns/ColumnUpdateDefinitions";
-import { ColumnAddRemoveSample } from "./columns/ColumnAddRemoveSample";
-import { ColumnUpdateDefMatchingColumns } from "./columns/ColumnUpdateDefMatchingColumns";
-import { ColumnUpdateEvents } from "./columns/ColumnUpdateEvents";
-import { AutoColumnGroupSample } from "./rows/AutoColumnGroupSample";
-import { MultiGroupSample } from "./rows/MultiGroupSample";
-import { AddValuesToLeafSample } from "./rows/AddValuesToLeafSample";
-import { HideOpenParentsSample } from "./rows/HideOpenParentsSample";
+// import { GetStarted } from "./getStarted/GetStarted";
+// import { ColumnDefinitionSample } from "./columns/ColumnDefinitionSample";
+// import { ColumnHeadersSample } from "./columns/ColumnHeadersSample";
+// import { ColumnGroupSample } from "./columns/ColumnGroupSample";
+// import { ColumnUpdateDefinitions } from "./columns/ColumnUpdateDefinitions";
+// import { ColumnAddRemoveSample } from "./columns/ColumnAddRemoveSample";
+// import { ColumnUpdateDefMatchingColumns } from "./columns/ColumnUpdateDefMatchingColumns";
+// import { ColumnUpdateEvents } from "./columns/ColumnUpdateEvents";
+// import { AutoColumnGroupSample } from "./rows/AutoColumnGroupSample";
+// import { MultiGroupSample } from "./rows/MultiGroupSample";
+// import { AddValuesToLeafSample } from "./rows/AddValuesToLeafSample";
+// import { HideOpenParentsSample } from "./rows/HideOpenParentsSample";
+import { SimpleReducerSample } from "./simpleReducerSample/SimpleReducerSample";
 
 function App() {
   return (
@@ -52,8 +53,11 @@ function App() {
       {/* <div>
         <AddValuesToLeafSample />
       </div> */}
-      <div>
+      {/* <div>
         <HideOpenParentsSample />
+      </div> */}
+      <div>
+        <SimpleReducerSample />
       </div>
     </div>
   );
