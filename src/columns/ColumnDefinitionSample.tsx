@@ -6,6 +6,15 @@ import { useGridReady } from "../hooks/useGridReady";
 
 /// https://www.ag-grid.com/javascript-grid-column-definitions/
 
+/*
+usage
+  - floating filter enable - floatingFilter
+  - columnType - list of types assignable to the columns 
+  - group column and enabling show/hide
+  - setting column type - can customize the comparator
+
+*/
+
 export function ColumnDefinitionSample() {
   // component state management
   const { gridReadyHandler } = useGridReady();

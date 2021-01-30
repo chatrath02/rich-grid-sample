@@ -46,7 +46,7 @@ export function GetStarted() {
           checkboxSelection={true}
           rowGroup={true}
         ></AgGridColumn>
-        <AgGridColumn field="model" sortable={true} />
+        <AgGridColumn field="model" sortable={true} hide={true} />
         <AgGridColumn
           field="price"
           sortable={true}

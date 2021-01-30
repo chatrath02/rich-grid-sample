@@ -10,6 +10,13 @@ import { useFetchOlympicWinnersSmall } from "../hooks/useFetchOlympicWinnersSmal
 
 // https://www.ag-grid.com/javascript-grid-column-header/
 
+/*
+
+Demo usage of:
+  - header styles
+
+
+*/
 export function ColumnHeadersSample() {
   const { gridReadyHandler } = useGridReady();
   const rowData = useFetchOlympicWinnersSmall();
@@ -24,7 +31,10 @@ export function ColumnHeadersSample() {
           <AgGridReact
             onGridReady={gridReadyHandler}
             rowData={rowData}
-            defaultColDef={{ sortable: true, resizable: true }}
+            defaultColDef={{
+              sortable: true,
+              resizable: true,
+            }}
             groupHeaderHeight={75}
             headerHeight={150}
             floatingFiltersHeight={50}
